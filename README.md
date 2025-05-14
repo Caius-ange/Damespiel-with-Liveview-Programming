@@ -10,36 +10,48 @@ Programmierung (OOP) in Java und demonstriert die Integration von Spiellogik, Li
 View Programming und KI.
 
 2. Programmiertechnische Herausforderungen, Ihr Lösungsansatz?
+   
 • Spiellogik und Regeln umsetzen: Die Spiellogik umfasst das Bewegen von Steinen, 
 Schlagen von Gegnern, Dame-Umwandlung und Alle Regeln müssen klar definiert und 
 validiert werden.
 Lösungsansatz: Implementierung von Klassen und Methoden, die es steuern
+
 • KI-Entwicklung: Implementierung einer künstlichen Intelligenz, die in der Lage ist, 
 gültige und strategische Züge zu machen.
 Lösungsansatz: Minimax Algorithmus
+
 • Benutzeroberfläche: Die visuelle Darstellung des Spiels und keine Interaktion mit 
 dem Benutzer 
 Lösungsansatz: Live View Programming
+
 • Zugvalidierung: Sicherstellen, dass nur gültige Züge durchgeführt werden, ohne die 
 Regeln zu verletzen.
 Lösungsansatz: Implementierung eines Regelprüfung, das vor jedem Zug alle 
 Bedingungen evaluiert und die Rückmeldung an den Spieler bei ungültigen Zügen.
+
 • Bestscore tracken: Beim Schlagen eines Steins werden Punkte hinzufügen
 Lösungsansatz: Verwende eine Datei (z. B. scores.txt …), um die Punktzahlen 
 persistent zu speichern.
+
 • Zugmöglichkeit anzeigen:
 Lösungsansatz: Wenn ein Spieler ein Feld auswählt, wird eine Methode 
 implementiert, die alle möglichen Züge der darauf befindlichen Spielfigur zurückgibt.
 
 4. Szenarien
+   
 3.1. Szenario 1 – Grundlegender Spielzug
 Zweck:
+
 Ein Spieler führt einen einfachen, gültigen Zug mit einem normalen Stein aus.
  Beschreibung:
+ 
 • Der Spieler zieht diagonal vorwärts auf ein freies Feld.
+
 • Das Spielfeld wird aktualisiert.
+
  Erwartetes Ergebnis:
 • Der Stein bewegt sich korrekt auf das neue Feld.
+
 • Das vorherige Feld ist leer.
 
 3.2. Szenario 2 – Normalen und mehrfachen Schlagen eines gegnerischen Steins
