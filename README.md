@@ -9,7 +9,7 @@ Ziele der Anwendung sind:
 Programmierung (OOP) in Java und demonstriert die Integration von Spiellogik, Live 
 View Programming und KI.
 
-2. Programmiertechnische Herausforderungen, Ihr Lösungsansatz?
+2-Programmiertechnische Herausforderungen, Ihr Lösungsansatz?
    
 • Spiellogik und Regeln umsetzen: Die Spiellogik umfasst das Bewegen von Steinen, 
 Schlagen von Gegnern, Dame-Umwandlung und Alle Regeln müssen klar definiert und 
