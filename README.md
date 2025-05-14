@@ -37,7 +37,7 @@ persistent zu speichern.
 Lösungsansatz: Wenn ein Spieler ein Feld auswählt, wird eine Methode 
 implementiert, die alle möglichen Züge der darauf befindlichen Spielfigur zurückgibt.
 
-4. Szenarien
+3-Szenarien
    
 3.1. Szenario 1 – Grundlegender Spielzug
 Zweck:
