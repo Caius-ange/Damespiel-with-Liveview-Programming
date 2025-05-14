@@ -1,4 +1,5 @@
 1-Zweck der Anwendung
+
 Die Anwendung simuliert das strategische Brettspiel "Dame" in einer digitalen 
 Umgebung.
 Ziele der Anwendung sind:
